@@ -24,7 +24,7 @@ public function testFullNameIsEmptyByDefault() {
 */
 public function only_first_name() {
 	$staff = new Staff;
-	$staff->first_name = "Hung";
+	$staff->first_name = "HeoCon";
 	$this->assertEquals("Lam", $staff->getFullName());
 }
 }
